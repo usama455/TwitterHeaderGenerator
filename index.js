@@ -3,7 +3,7 @@ const fs = require("fs");
 const request = require("request");
 const client = auth();
 
-client.stream("statuses/filter", { track: "#findmearandomheader" }, function (stream) {
+client.stream("statuses/filter", { track: "#GetARandomHeader" }, function (stream) {
 	console.log("Searching for tweets...");
 
 	// when a tweet is found

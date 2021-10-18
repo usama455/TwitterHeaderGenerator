@@ -1,26 +1,27 @@
 {
-  "name": "header-gen",
-  "version": "1.0.0",
-  "description": "a twitter bot to generate random header for twitter profile",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/usama455/TwitterHeaderGenerator.git"
-  },
-  "author": "Muhammad Usama",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/usama455/TwitterHeaderGenerator/issues"
-  },
-  "homepage": "https://github.com/usama455/TwitterHeaderGenerator#readme",
-  "dependencies": {
-    "bluebird": "^3.7.2",
-    "dotenv": "^10.0.0",
-    "fs": "^0.0.1-security",
-    "request": "^2.88.2",
-    "twitter": "^1.7.1"
-  }
+	"name": "header-gen",
+	"version": "1.0.0",
+	"description": "a twitter bot to generate random header for twitter profile",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/usama455/TwitterHeaderGenerator.git"
+	},
+	"author": "Muhammad Usama",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/usama455/TwitterHeaderGenerator/issues"
+	},
+	"homepage": "https://github.com/usama455/TwitterHeaderGenerator#readme",
+	"dependencies": {
+		"bluebird": "^3.7.2",
+		"dotenv": "^10.0.0",
+		"fs": "^0.0.1-security",
+		"request": "^2.88.2",
+		"twitter": "^1.7.1"
+	}
 }

@@ -17,6 +17,9 @@
 	"bugs": {
 		"url": "https://github.com/usama455/TwitterHeaderGenerator/issues"
 	},
+	"engines": {
+		"node": "14.17.3"
+	},
 	"homepage": "https://github.com/usama455/TwitterHeaderGenerator#readme",
 	"dependencies": {
 		"bluebird": "^3.7.2",

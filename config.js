@@ -92,7 +92,7 @@ const postReplyWithMedia = (client, mediaFilePath, replyTweet) => {
 		.then((mediaId) => {
 			console.log("Preparing Object");
 			let statusObj = {
-				status: "Hi @" + replyTweet.user.screen_name + ", here's your new header from usama",
+				status: "Hi @" + replyTweet.user.screen_name + ", Enjoy your new header from @usama455_",
 				in_reply_to_status_id: replyTweet.id_str,
 				media_ids: mediaId
 			};
